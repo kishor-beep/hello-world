@@ -15,3 +15,10 @@ List = 'python'
 'h' 
 >>> List[-3:]   # negative index can also be used in slicing
 'hon' 
+
+
+List print in Reverse order 
+
+List = ['G', 'E', 'E', 'K', 'S', 'F','O', 'R', 'G', 'E', 'E', 'K', 'S']
+lst = List[::-1]
+print(lst)
