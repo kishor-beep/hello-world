@@ -1,17 +1,17 @@
-w = 'python'
->>> w[-1]   # first character from the end
+List = 'python'
+>>> List[-1]   # first character from the end
 'n' 
->>> w[-2]   # second character from the end
+>>> List[-2]   # second character from the end
 'o' 
->>> w[1:3]
+>>> List[1:3]
 'yt'
->>> w[2:5]
+>>> List[2:5]
 'tho' 
->>> w[:5]   # slice from the beginning
+>>> List[:5]   # slice from the beginning
 'pytho' 
->>> w[2:]   # slice until the end
+>>> List[2:]   # slice until the end
 'thon'
->>> w[-3]
+>>> List[-3]
 'h' 
->>> w[-3:]   # negative index can also be used in slicing
+>>> List[-3:]   # negative index can also be used in slicing
 'hon' 
