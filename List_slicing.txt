@@ -16,9 +16,17 @@ List = 'python'
 >>> List[-3:]   # negative index can also be used in slicing
 'hon' 
 
-
 List print in Reverse order 
-
 List = ['G', 'E', 'E', 'K', 'S', 'F','O', 'R', 'G', 'E', 'E', 'K', 'S']
 lst = List[::-1]
 print(lst)
+
+********what is different between both of them *******
+
+mylist = [1, 2, 3, 4, 5, 'Geek', 'Python']
+mylist.reverse()
+print(mylist)
+
+mylist = [1, 2, 3, 4, 5, 'Geek', 'Python']
+Sliced_List = mylist[::-1]
+print(Sliced_List)
