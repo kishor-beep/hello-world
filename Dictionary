@@ -1,0 +1,15 @@
+simpsons = {'Homer': 36,'Marge': 35,'Bart':10 }
+print(simpsons)
+
+# Add new element into dict.
+simpsons['lisa'] = 8 
+
+#update the value of 'Bart'
+simpsons['Bart'] = 15 
+print(simpsons)
+
+# Here Extract data from the dict # 
+# There are three method to extract the date form dict.
+simpsons.keys()      # return list like object conssisting of keys
+simpsons.values()    # return list like object consisting of values
+simpsons.items()     # returns a quasi-list of key, value tuples
